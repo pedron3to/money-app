@@ -32,9 +32,24 @@ export function Dashboard() {
 
       </Header>
       <HighlightCardContainer >
-        <HighlightCard />
-        <HighlightCard />
-        <HighlightCard />
+        <HighlightCard
+          type="up"
+          title="Deposits"
+          amount="$ 10.000,00"
+          lastTransaction="Last deposit was at 28th march"
+        />
+        <HighlightCard
+          type="down"
+          title="WithDraws"
+          amount="$ 5.000,00"
+          lastTransaction="Last Withdraw was at 28th march"
+        />
+        <HighlightCard
+          type="total"
+          title=""
+          amount="$ 5.000,00"
+          lastTransaction="from 28th to 30th march"
+        />
       </HighlightCardContainer>
 
 
