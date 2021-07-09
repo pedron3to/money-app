@@ -1,6 +1,7 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { Dashboard } from './src/screens/Dashboard';
+// import { Dashboard } from './src/screens/Dashboard';
+import { Register } from './src/screens/Register';
 import { ThemeProvider } from 'styled-components/native';
 import theme from './src/global/styles/theme'
 import AppLoading from 'expo-app-loading';
@@ -27,7 +28,8 @@ export default function App() {
     // <View style={styles.container}>
 
     <ThemeProvider theme={theme}>
-      <Dashboard />
+      {/* <Dashboard /> */}
+      <Register />
       <StatusBar style="auto" />
     </ThemeProvider>
     // </View> 
