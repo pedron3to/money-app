@@ -29,21 +29,20 @@ This project was made using the follow technologies:
 
 ```bash
 # Clone Repository
-$ git clone https://github.com/pedron3to/rest-countries-api.git
+$ git clone https://github.com/pedron3to/money-app.git
 ```
 
 ```bash
-$ cd ..
-$ cd /frontend
+$ cd money-app
 # Install Dependencies
 $ yarn
 ```
 
 ```bash
-$ yarn dev
+$ yarn web
 ```
 
-Go to http://localhost:3000 to see the result.
+Go to http://localhost:19006 to see the result.
 # :sparkles: Contributing
 
 - Fork this repository;
