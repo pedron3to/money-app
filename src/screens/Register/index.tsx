@@ -3,19 +3,24 @@ import {
   Container,
   Header,
   Title,
-  Form
+  Form,
+  Fields,
 } from './styles';
-import { Input } from '../../components/Form/Input' 
+import { Input } from '../../components/Form/Input'
+import { Button } from '../../components/Form/Button';
 
 export function Register() {
-  return(
+  return (
     <Container>
       <Header>
         <Title>Register</Title>
       </Header>
       <Form>
-      <Input placeholder="Name" />
-      <Input placeholder="Value" />
+        <Fields>
+          <Input placeholder="Name" />
+          <Input placeholder="Value" />
+        </Fields>
+        <Button title="Enviar" />
       </Form>
     </Container>
   )
